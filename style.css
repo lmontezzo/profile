@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #696969;
+  background-color: #ededed;
+  line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  color: #DD5555;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+  text-decoration: none;
+}
+
+td{
+  padding: 10px;
+}
+
+.card-white {
+  width: 40%;
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#avatar {
+  max-width: 30%;
+  border-radius: 50%;
+  border: 3px solid #ededed;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background-color: #C61414;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+
+.movieposter-size{
+  width: 100px;
+}
